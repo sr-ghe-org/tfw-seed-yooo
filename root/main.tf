@@ -10,6 +10,7 @@ module "vcsworkflow" {
   repository_template = "tfw-seed-template"
   vcs_ghain           = "ghain-9NW7c1EhRWxYsYs5"
   tfe_project_id      = "prj-BL1UPf9uoMi9mrDG"
+  ghe_team_id         = "operator-yooo"
   # tfe_team_id         = ""
   wif = {
     repository = {

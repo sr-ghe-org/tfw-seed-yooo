@@ -1,6 +1,6 @@
 module "vcsworkflow" {
   source  = "app.terraform.io/tfc-test-pool/wrkflw/vcs"
-  version = "0.0.2"
+  version = "0.0.3"
   roles = {
     repository = ["roles/artifactregistry.writer"]
     workspace  = ["roles/iam.workloadIdentityPoolAdmin", "roles/compute.admin"]

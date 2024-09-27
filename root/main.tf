@@ -25,12 +25,7 @@ module "vcsworkflow" {
           pool_id         = "nppoolyooo"
           provider_id     = "gh-provider"
         }
-      },
-    #   hve = {
-    #     address   = "blah.bloo.blee"
-    #     namespace = "doesnotexist"
-    #     auth_path = "/foo/fee/fum"
-    #   }
+      }
     },
     workspace = {
       gcp = {
@@ -44,19 +39,7 @@ module "vcsworkflow" {
           pool_id         = "nppoolyooo"
           provider_id     = "tf-provider"
         }
-      },
-    #   hve = {
-    #     pr = {
-    #       address   = "blah.bloo.blee"
-    #       namespace = "doesnotexist"
-    #       auth_path = "/foo/fee/fum"
-    #     },
-    #     np = {
-    #       address   = "blah.bloo.blee"
-    #       namespace = "doesnotexist"
-    #       auth_path = "/foo/fee/fum"
-    #     }
-    #   }
+      }
     }
   }
   workload_context = {

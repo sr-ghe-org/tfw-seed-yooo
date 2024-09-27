@@ -6,7 +6,7 @@ module "vcsworkflow" {
     workspace  = ["roles/iam.workloadIdentityPoolAdmin", "roles/compute.admin"]
   }
   gcp_projects        = { pr = "pryooo", np = "npyooo" }
-  repository_name     = "vcs-qqq"
+  repository_name     = "vcs-rrrr"
   repository_template = "tfw-seed-template"
   vcs_ghain           = "ghain-9NW7c1EhRWxYsYs5"
   tfe_project_id      = "prj-BL1UPf9uoMi9mrDG"
@@ -54,6 +54,6 @@ module "vcsworkflow" {
       }
     }
   }
-  workload_id = "nwnw"
-  workflow_id = "nww"
+  workload_id = "eeee"
+  workflow_id = "rrrr"
 }

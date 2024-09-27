@@ -54,6 +54,6 @@ module "vcsworkflow" {
       }
     }
   }
-  workload_id = "sqqq"
-  workflow_id = "dep"
+  workload_id = "nwnw"
+  workflow_id = "nww"
 }
